@@ -1,0 +1,33 @@
+{
+  "name": "FlyFi Status",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Easily check the status of FlyFi on your JetBlue flight",
+  "permissions": [
+    "http://www.flyfi.com/",
+    "alarms",
+    "storage"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "browser_action": {
+    "default_title": "Displays status of FlyFi on JetBlue",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "19": "img/icon19-gray.png",
+      "38": "img/icon38-gray.png"
+    }
+  },
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+  "background": {
+    "persistent": true,
+  	"scripts": [
+  		"js/vendor/jquery.js",
+      "js/vendor/underscore.js",
+  		"js/background.js"
+  	]
+  }
+}

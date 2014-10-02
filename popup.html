@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>FlyFi status</title>
+    <style>
+      body {
+        overflow-x: hidden;
+        white-space: nowrap;
+      }
+
+      div.control-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        margin: 10px 10px 10px 10px;
+      }
+
+      div.control-container > div:not(:last-child) {
+        margin-right: 5px;
+      }
+    </style>
+    <link rel="stylesheet" href="css/vendor/bootstrap.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap-theme.css">
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/bootstrap.js"></script>
+    <script src="js/popup.js"></script>
+  </head>
+  <body>
+    <div class="control-container">
+      <div>Enabled</div>
+      <div><input id="enabled" type="checkbox" name="enabled" value="true"></div>
+    </div>
+    <div class="control-container">
+      <a href="http://www.flyfi.com/access/myAccess.htm" target="_blank">FlyFi notifications</a>
+    </div>
+  </body>
+</html>
