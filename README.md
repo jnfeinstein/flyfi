@@ -9,7 +9,7 @@
 4. Select the cloned repo folder.
 5. Engage.
 
-### From the .crx file
+### From the .crx file (available [here](https://github.com/jnfeinstein/flyfi/blob/master/built/flyfi.crx?raw=true))
 1. In Chrome, navigate to "chrome://extensions".
 2. Drag the .crx file onto the window and drop it where asked.
 3. Click "Add".
