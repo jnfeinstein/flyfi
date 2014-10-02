@@ -25,3 +25,7 @@ of FlyFi on your plane.
 The extension operates by polling the FlyFi server once a minute.  If you want to
 stop this or are not on a JetBlue flight with FlyFi, you can disable (and later enable)
 the extension on by clicking the square and toggling "Enabled".
+
+## Notes
+I wrote this because I was on a flight where the WiFi kept going in and out, and then
+it never came back.  Thus disconnected is the only state that currently works reliably.
